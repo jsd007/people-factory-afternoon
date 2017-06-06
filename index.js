@@ -6,7 +6,7 @@ function handleSubmit(ev) {
     const title = f.personTitle.value
     const name = f.personName.value
     const details = document.querySelector('#details')
-    details.innerHTML += '<strong>' + name + '</strong>'
+    details.innerHTML += `<strong>${name}</strong>`
 
 
     document.querySelector('h1').textContent = title + " " + name
